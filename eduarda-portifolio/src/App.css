@@ -1,0 +1,41 @@
+:root{
+  --marrom-letra: #8B7366;
+  --fundo:#ECECEC;
+}
+
+
+*{
+  background-color: var(--fundo);
+  margin: 0;
+  padding: 0;
+  color:var(--marrom-letra);  
+}
+
+main{
+  height: 90vh;
+  display: grid;
+  grid-template-columns:1fr 3fr ;
+  margin:2rem;
+}
+
+
+.container-titulo{
+  justify-items: flex-end;
+  align-content: end;
+  text-align: left;  
+  padding-bottom: 5rem;
+}
+
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13rem;
+  margin: 0;
+  padding: 0;
+
+}
+
+.subTitulo{
+  margin: 0;
+  font-family: 'Cinzel',serif;
+  font-size: 2rem;
+}
